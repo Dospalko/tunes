@@ -22,7 +22,7 @@ const TunesSong = (props: Props) => {
     }
 
     return (
-        <div className='flex song flex-col bg-[#E3D87E] rounded'>
+        <div className='flex song song flex-col bg-[#E3D87E] rounded'>
             <div className="inside px-6 ">
                 <h2 className='font-bold text-lg border-b-2 border-gray-600 mt-1'>
                     {songify(song)}
